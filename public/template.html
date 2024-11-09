@@ -13,10 +13,16 @@
     <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
       <!-- ! Left Container  -->
       <div class="space-y-2">
+        <input
+          id="meme-input"
+          type="text"
+          class="input input_bordered input-primary w-full"
+          placeholder="e.g when buddy broke and get bills" />
+
         <div class="skeleton h-8"></div>
         <div class="skeleton h-8"></div>
         <div class="skeleton h-8"></div>
-        <button class="btn">Try Click Me</button>
+        <button id="meme-btn" class="btn">Try Click Me</button>
       </div>
 
       <!-- ! Right Container -->
@@ -26,9 +32,10 @@
         </p>
         <img
           src="./imgs/sheldon_meme_template.jpg"
-          alt="sheldon_meme_template"
-        />
+          alt="sheldon_meme_template" />
       </div>
     </div>
+
+    <script src="meme-input.js"></script>
   </body>
 </html>
